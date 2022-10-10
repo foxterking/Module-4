@@ -1,4 +1,9 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Name_And_Age
 {
@@ -13,7 +18,8 @@ namespace Name_And_Age
             Console.WriteLine("What is your age");
             input = Console.ReadLine();
             age = Convert.ToInt32(input);
-            Console.WriteLine("Hello " + name + " you are " + age + " years old ");
+            Console.WriteLine("Hello " + name); 
+            Console.WriteLine("You are " + age + " years old. ");
             Console.ReadLine();
 
         }
